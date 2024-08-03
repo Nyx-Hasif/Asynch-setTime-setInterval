@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- setTimeout -->
+    <h1>Async setTime()</h1>
+    <p>Hello World</p>
+    <p id="test">5 Seconds</p>
+
+    <h1>Callback() method 1</h1>
+    <p id="greeting">Hello cruel World</p>
+    <button onclick="callback()">start Callback 2s</button>
+
+    <h1>Callback() method 2 by calling callback function</h1>
+    <p id="greetingBoy"></p>
+    <button onclick="greetHey()">useless button because setime out of function</button>
+   <!--------------------------------------------------------------------------------------------- -->
+    <h1 id="blue">Asynch setInterval()</h1>
+    <p id="lightUp" style="padding:10px;">with clearInterval 2s</p>
+    <p id="counter"></p>
+
+    <h1 id="blue">Asynch setInterval()</h1>
+    <p id="lampuKotak" style="padding:10px;">without clearInterval 1s </p>
+
+    <h1 id="blue">Asynch setInterval() using button to start and off</h1>
+    <div id="container">
+    <p id="display"></p>
+    </div>
+    <button id="startBtn" onclick="startOn()">start</button>
+    <button id="offBtn" onclick="startOff()">off</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
